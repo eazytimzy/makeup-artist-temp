@@ -32,7 +32,7 @@ nav li{
 nav li :hover{
   background-color: #C56035;
   transition:ease-in-out 1s; 
-  color: white;
+  color: white !important;
   border-radius: 5px;
 }
 .nav-link{
@@ -486,4 +486,15 @@ footer {
   .hide-on-mob{
     display: none;
   }
+  nav li  :hover{
+    background-color: #C56035;
+    transition:ease-in-out 1s; 
+    color: white !important;
+    border-radius: 5px;
+    padding-right: 0px !important;
+    width: 100px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
